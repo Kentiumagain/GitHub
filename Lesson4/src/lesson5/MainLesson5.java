@@ -32,7 +32,7 @@ public class MainLesson5 {
                 arr2[i] = (float) (arr2[i] * Math.sin(0.2f + i / 5) * Math.cos(0.2f + i / 5) * Math.cos(0.4f + i / 2));
             }
         }).start();
-        for (int i = 0; i < HALFSIZE; i++) {
+        for (int i = HALFSIZE; i < SIZE; i++) {
             arr1[i] = (float) (arr1[i] * Math.sin(0.2f + i / 5) * Math.cos(0.2f + i / 5) * Math.cos(0.4f + i / 2));
         }
         System.arraycopy(arr1, 0, arr, 0, HALFSIZE);
